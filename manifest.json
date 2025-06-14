@@ -7,8 +7,8 @@
         "default_popup": "popup.html"
     },
     "options_page": "settings.html",
-    "name": "Staying Alive for Google Chrome™",
-    "description": "Never Get Logged Out of any website due to idling!",
+    "name": "Staying Alive for Sabre Web Portal™",
+    "description": "Never Get Logged Out of Sabre Website due to idling!",
     "icons": {
         "16": "img/16/icon_timed_reload_16.png",
         "48": "img/48/icon_timed_reload_48.png",
