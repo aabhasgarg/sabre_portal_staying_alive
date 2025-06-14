@@ -436,8 +436,8 @@ $(function () {
      * be the value of this extension id
      *
      */
-    fbUrl = 'https://www.facebook.com/plugins/like.php?href={store_url}&amp;width=450&amp;height=35&amp;colorscheme=light&amp;layout=standard&amp;action=like&amp;show_faces=false&amp;send=false&amp;appId=203208779690064';
-    storeUrl = 'https://chrome.google.com/webstore/detail/' + chrome.runtime.id;
+    fbUrl = '';
+    storeUrl = '' + chrome.runtime.id;
     document.getElementById("rate_us").href = storeUrl + '/reviews';
     $("#twtr").attr('data-url', storeUrl).attr('data-counturl', storeUrl);
     fbUrl = fbUrl.replace('{store_url}', encodeURIComponent(storeUrl));
